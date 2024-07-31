@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+height: 98vh;
+width: 30%;
+margin: auto;
+border-width: 3px 10px 12px 0; /* establece el ancho del borde */
+border-style: solid;/* establece el estilo del borde*/
+border-color: #b1aeae; /* esteblece el color del borde*/
+background: radial-gradient( at right top, #2A6173, #AEC3CD);
+position: relative;
+
+}
+#encabezado{
+    height: 20vh;
+    
+
+}
+
+#contenido{
+    height: 72vh;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 0 50px 0;
+
+}
+
+#columna{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    background-color: #283D3D;
+    width: 35%;
+    height: 100%;
+
+}
+
+.circulo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient( at right top, #dc0505, #b60505);
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+
