@@ -15,11 +15,21 @@ background: radial-gradient( at right top, #2A6173, #AEC3CD);
 position: relative;
 
 }
-#encabezado{
-    height: 20vh;
-    
-
+#encabezado{   
+color: white;
+padding: 10% 10% 45% 10% ;
 }
+
+#encabezado h1{
+    font: 1.5em sans-serif;
+    margin: 2px;
+}
+
+#encabezado h2{
+    font: 1.1em sans-serif;
+    margin: 2px;
+}
+
 
 #contenido{
     height: 72vh;
@@ -43,9 +53,47 @@ position: relative;
     position: absolute;
     width: 50px;
     height: 50px;
-    background: radial-gradient( at right top, #dc0505, #b60505);
+    background: radial-gradient( at right top, #818083, #949599);
     border-radius: 50%;
-    top: 0;
-    left: 0;
+    
+}
+
+#c-1{
+    top: 9px;
+    left: 7px;  
+width: 45px;
+
+}
+
+#c-2{
+    width: 80px;
+    height: 80px;
+    background-color: #a9abac;
+    top: 120px;
+    left: 142px;
+}
+
+#c-3{
+    width: 25px;
+    height: 25px;
+    background-color: #d1d1d1;
+    bottom: 210px;
+    right: 10px;
+}
+
+#c-4{
+    width: 120px;
+    height: 120px;
+    background-color: #c5c0c0;
+    bottom: 120px;
+    right: 35px;
+}
+
+#columna >img{
+    width: 80%;
+    margin-left: 5%;
+    border-radius: 50%;
+    z-index: 10;
+
 }
 
